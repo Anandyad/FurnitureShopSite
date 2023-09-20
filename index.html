@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" type="Image/png" href="./icons/icons8-furniture-50.png">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="LandingPage">
+        <div class="container">
+            <div class="logo" style="cursor: pointer;">
+                <img src="./icons/icons8-furniture-50.png" alt="Furniture">
+            </div>
+            <div class="navbar">  <ul class="nav-list">
+                <li class="nav-iteam">home</li>
+                <li class="nav-iteam">about</li>
+                <li class="nav-iteam">products</li>
+                <li class="nav-iteam">offer</li>
+                <li class="nav-iteam">contact</li></ul>  
+            </div>
+            <div class="div"><button class="btnOrder hvr-float">Order</button></div>
+        </div>
+    </section>
+    <section class="detail">
+        <div class="formgroup">
+            <i></i>
+            <span>Efficient</span>
+        </div>
+
+    </section>
+    <div data-aos="fade-up" data-aos-anchor=".other-element"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            disable: false, startEvent: 'DOMContentLoaded', initClassName: 'aos-init', animatedClassName: 'aos-animate',
+            useClassNames: false, disableMutationObserver: false, debounceDelay: 50, throttleDelay: 99, offset: 120, delay: 0, duration: 400, easing: 'ease', once: false, mirror: false, anchorPlacement: 'top-bottom',
+        });
+    </script>
+</body>
+
+</html>
