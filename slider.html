@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sliderContainer{
+        max-width: 800px;
+        position: relative;
+        flex: 0 0 200px ;
+
+    }
+    .slider{
+        display: flex;
+        width: 2400px;
+        position: relative;
+        flex: 0 0 200px;
+        height: 800px;
+transition: transform 0.3s ease;
+        overflow-x: auto;
+    }
+</style>
+<body>
+    <div class="sliderContainer">
+        <div class="slider">
+            <div style="background-image: url(./Images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg);"></div>
+            <div style="background-image: url(./Images/premium_photo-1674815329488-c4fc6bf4ced8.avif);"></div>
+            <div style="background-image: url(./Images/nathan-fertig-FBXuXp57eM0-unsplash.jpg);"></div>
+        </div>
+        <div class="buttonGroup">
+            <button class="btnPrevious">Previous</button>
+            <button class="btnNext">Next</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.sliderContainer {
+    /* position:relative; */
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider {
+    width: 2400px;
+    height: 90vh;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.slider>div {
+    flex: 0 0 800px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider>div:nth-child(1) {
+    background-image: url(./Images/nathan-fertig-FBXuXp57eM0-unsplash.jpg);
+}
+
+.slider>div:nth-child(2) {
+    background-image: url(./Images/premium_photo-1674815329488-c4fc6bf4ced8.avif);
+}
+
+.slider>div:nth-child(3) {
+    background-image: (url(./Images/spacejoy-CtPRtg8KSIs-unsplash.jpg));
+}
+
+.buttonGroup {
+    color: #fafafa;
+    margin: 10px;
+}
+
+.buttonGroup {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+
+.buttonGroup button {
+      padding: 10px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90px;
+
+    cursor: pointer;
+}
